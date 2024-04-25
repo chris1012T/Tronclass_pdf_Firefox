@@ -1,4 +1,4 @@
-[Chrome version of this extension](https://chrome.google.com/webstore/detail/hfnbdhdncoploidiifmbpenakollmggg)
+[Chrome version of this extension](https://github.com/chris1012T/Tronclass_pdf)
 
 # Tronclass PDF (Firefox)
 
