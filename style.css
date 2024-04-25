@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Noto Sans TC";
+    src: url("/src/NotoSansTC-VariableFont_wght.ttf");
+}
+
+body {
+    background-color: #F0F0F2;
+    color: #666666;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.content {
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#title {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+#title,
+#github_icon {
+    display: block;
+}
+
+#github_icon {
+    height: 48px;
+    margin-top: 10px;
+}
+
+.caution {
+    color: #FF6347;
+}
+
+ol {
+    line-height: 2;
+    font-size: 18px;
+}
+
+.instruction {
+    font-size: 18px;
+}
+
+.instruction img {
+    width: 900px;
+}
+
+.instruction li {
+    margin-bottom: 20px;
+}
+
+#pin1,
+#pin2 {
+    width: 45%;
+    border: 1px solid #666;
+}
+
+#pin1 {
+    margin-right: 20px;
+}
+
+.hl {
+    border-top: 2px solid #CCC;
+}
+
+.footer {
+    border-top: 1px #CCC solid;
+    padding: 3px 0 3px 0;
+    text-align: center;
+    background-color: #e2e2ec;
+}

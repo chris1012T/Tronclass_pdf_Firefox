@@ -1,0 +1,38 @@
+{
+    "name": "Tronclass pdf (原iClass get pdf)",
+    "description": "本擴充套件可以PDF格式下載Tronclass(iClass)上大多數檔案。",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{afc3b4df-eca4-4958-da29-ed83a9c8f74d}"
+        },
+        "strict_min_version": "121.0"
+    },
+    "action": {
+        "default_icon": {
+            "16": "/img/icon16.png",
+            "24": "/img/icon24.png",
+            "32": "/img/icon32.png",
+            "48": "/img/icon48.png",
+            "128": "/img/icon128.png"
+        },
+        "default_title": "請先開啟教材頁面再點我"
+    },
+    "icons": {
+        "16": "/img/icon16.png",
+        "24": "/img/icon24.png",
+        "32": "/img/icon32.png",
+        "48": "/img/icon48.png",
+        "128": "/img/icon128.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "contextMenus",
+        "downloads"
+    ]
+}
