@@ -1,7 +1,7 @@
 {
-    "name": "Tronclass pdf (原iClass get pdf)",
-    "description": "本擴充套件可以PDF格式下載Tronclass(iClass)上大多數檔案。",
-    "version": "1.0.0",
+    "name": "Tronclass pdf",
+    "description": "本擴充套件可下載Tronclass(iClass)上大多數教材，包括影片、PDF及PPT(以PDF格式下載)。 #Tronclass pdf下載 #iClass pdf下載 #Tronclass教材下載",
+    "version": "1.1.0",
     "manifest_version": 3,
     "browser_specific_settings": {
         "gecko": {

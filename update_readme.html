@@ -6,33 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="./img/icon128.png" type="img/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Update</title>
     <style>
-        body {
-            background-color: #F0F0F2;
-        }
-        
         h1 {
             font-family: Arial;
             text-align: center;
             color: #FF6347;
             font-size: 30pt;
+            font-weight: normal;
         }
         
-        p {
-            text-align: center;
+        .footer {
+            position: fixed;
+            bottom: 0px;
+            left: 0;
+            width: 100%;
+        }
+        
+        .container {
             max-width: 70%;
-            margin: auto;
-            font-size: 20pt;
+            margin: 0 auto;
+            padding: 20px 0;
             color: #666666;
-            font-weight: bold;
+            border-bottom: 1px dashed #AAA;
+        }
+        
+        .version {
+            font-size: 20pt;
+            margin: 15px 0;
+        }
+        
+        .content {
+            margin: 0;
+            font-size: 16pt;
+            padding-left: 2em;
+            list-style: "- ";
         }
     </style>
 </head>
 
 <body>
-    <h1>Tronclass PDF 更新說明</h1>
-    <p>此次版本更新(v2.0.0)已針對部分學校Tronclass平台更新進行修正，適用於2023新版Tronclass教材下載。 再次感謝您使用本擴充套件!</p>
+    <h1>Tronclass PDF Changelog</h1>
+    <div class="container">
+        <div class="version">[v1.1.0] 2024-10-14</div>
+        <ul class="content">
+            <li><b>增加下載教材影片功能。</b> 開啟教材影片頁面後，按下插件圖示即可下載影片。</li>
+        </ul>
+    </div>
+    <div class="footer">
+        by chris1012T
+    </div>
 </body>
 
 </html>

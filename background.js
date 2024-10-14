@@ -3,9 +3,11 @@ browser.runtime.onInstalled.addListener(async(detail) => {
         case "install":
             await browser.tabs.create({ url: "readme.html" });
             break;
-            // case "update":
-            //     await browser.tabs.create({ url: "update_readme.html" });
-            // break;
+        case "update":
+            if (browser.runtime.getManifest().version == '1.1.0') {
+                await browser.tabs.create({ url: "update_readme.html" });
+            }
+            break;
     }
 });
 
@@ -55,6 +57,6 @@ browser.runtime.onMessage.addListener((data) => {
     browser.downloads.download({
         conflictAction: "uniquify",
         url: data.src,
-        filename: `${data.filename}.pdf`
+        filename: data.filename
     });
 });
