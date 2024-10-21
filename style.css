@@ -16,22 +16,18 @@ body {
     justify-content: space-between;
 }
 
-#title {
-    font-size: 30px;
+.links{
+    display: flex;
+    gap: 10px;
 }
 
 h2 {
     font-size: 25px;
 }
 
-#title,
-#github_icon {
+#title{
+    font-size: 30px;
     display: block;
-}
-
-#github_icon {
-    height: 48px;
-    margin-top: 10px;
 }
 
 .caution {
