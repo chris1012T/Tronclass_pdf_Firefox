@@ -1,3 +1,5 @@
+This repository is archived. The Firefox version now lives in https://github.com/chris1012T/Tronclass_pdf (built from the same source as the Chrome version).
+
 [Chrome version of this extension](https://github.com/chris1012T/Tronclass_pdf)
 
 # Tronclass PDF (Firefox)
